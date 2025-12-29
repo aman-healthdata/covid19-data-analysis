@@ -1,0 +1,29 @@
+# COVID-19 Time Series Data Analysis — UK
+
+## Overview
+This project analyzes COVID-19 trends in the United Kingdom using publicly available data from Our World in Data. 
+It includes visualizations of daily cases and deaths, 7-day moving averages, peak detection, and trend analysis.
+
+## Data Source
+Data is sourced from Our World in Data COVID-19 dataset, which compiles confirmed cases and deaths globally:
+[Our World in Data COVID-19 Dataset](https://github.com/owid/covid-19-data)
+
+## Methods
+- Filtered dataset for the UK
+- Converted dates and set time-series index
+- Plotted daily cases/deaths and 7-day moving averages
+- Identified peaks and calculated summary statistics
+- Optional: weekly percent change to highlight trends
+
+## Key Insights
+- Multiple waves visible over time with corresponding peaks
+- Moving averages smooth daily fluctuations
+- Weekly percent changes highlight periods of rapid spread or decline
+
+## Tools
+Python, pandas, matplotlib, seaborn (Google Colab)
+
+## Limitations
+- Reporting inconsistencies over time may affect trends
+- Analysis is descriptive; no predictive modeling included
+- Only UK data analyzed, not cross-country comparisons

@@ -27,3 +27,26 @@ Python, pandas, matplotlib, seaborn (Google Colab)
 - Reporting inconsistencies over time may affect trends
 - Analysis is descriptive; no predictive modeling included
 - Only UK data analyzed, not cross-country comparisons
+# COVID-19 Time Series Data Analysis — UK
+
+## Overview
+This project analyzes COVID-19 trends in the United Kingdom using publicly available data from Our World in Data.  
+It includes daily cases and deaths, 7-day moving averages, peak detection, and trend analysis.
+
+## Dataset
+- [Our World in Data COVID-19 Dataset](https://github.com/owid/covid-19-data)
+
+## Methods
+- Filter dataset for UK
+- Convert dates and set time-series index
+- Plot daily cases/deaths and 7-day moving averages
+- Identify peaks and calculate summary statistics
+- Optional: weekly percent change to highlight trends
+
+## Key Insights
+- Multiple epidemic waves and peak periods identified
+- Moving averages smooth daily fluctuations
+- Weekly percent changes highlight periods of rapid spread or decline
+
+## Tools & Skills
+Python, Pandas, Matplotlib, Seaborn, Time-Series Analysis, Epidemiology

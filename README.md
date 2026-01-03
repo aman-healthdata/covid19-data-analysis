@@ -1,4 +1,4 @@
-# COVID-19 Time Series Data Analysis — UK
+# COVID-19 Time Series Data Analysis 
 
 ## Overview
 This project analyzes COVID-19 trends in the United Kingdom using publicly available data from Our World in Data. 
